@@ -203,20 +203,6 @@ Resonance A Plague Tale Legacy/
 │
 └── Resonance.exe
 ```
-### 💾 Recommended Storage — SSD
-
-> [!TIP]
-> **Installing the game on an SSD is highly recommended.**
->
-> An SSD can significantly improve loading times and help reduce
-> asset-streaming delays and stuttering, especially when running
-> the game on older AMD Polaris GPUs.
->
-> For the best possible experience, install the game on an SSD
-> rather than a traditional HDD.
->
-> **Note:** An SSD is recommended for smoother gameplay but
-> is not a requirement for installing the compatibility fix.
 
 > [!IMPORTANT]
 > `Resonance.exe` is part of your existing game installation and is **not included in the compatibility fix**.
@@ -250,6 +236,21 @@ The compatibility components should load automatically when the game starts.
 > Removing or modifying individual components may cause startup failures, missing graphics, or other rendering problems.
 
 ---
+
+### 💾 Recommended Storage — SSD
+
+> [!TIP]
+> **Installing the game on an SSD is highly recommended.**
+>
+> An SSD can significantly improve loading times and help reduce
+> asset-streaming delays and stuttering, especially when running
+> the game on older AMD Polaris GPUs.
+>
+> For the best possible experience, install the game on an SSD
+> rather than a traditional HDD.
+>
+> **Note:** An SSD is recommended for smoother gameplay but
+> is not a requirement for installing the compatibility fix.
 
 ## Development Status
 
