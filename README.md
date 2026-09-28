@@ -266,6 +266,7 @@ Future updates may include additional performance optimizations, compatibility i
 
 ## Known Limitations
 
+- **Startup Intro / Splash Screen:** The intro and splash screen visuals may not be displayed during startup, while the corresponding audio remains audible. This does not affect gameplay.
 - The fix has primarily been developed and tested on the RX 580 8GB.
 - Compatibility with every RX 400 and RX 500 model has not been individually verified.
 - Performance may vary depending on GPU model, VRAM, graphics settings, and driver version.
