@@ -61,11 +61,14 @@ After extensive debugging, shader analysis, SPIR-V experimentation, and graphics
 
 **The game is now running with the entire game world rendering correctly, including the sky, water, lighting, and previously missing visual elements.**
 
+**Full Game Playability:** The complete campaign is playable from start to finish on the tested AMD Radeon RX 580 8GB, all the way through to the ending.
+
 ---
 
 ## Features
 
 - Enables gameplay on AMD Polaris GPUs.
+- Supports playing the complete campaign from start to finish on the tested RX 580 8GB.
 - Addresses DirectX 12 compatibility limitations.
 - Resolves major Vulkan graphics pipeline creation failures.
 - Fixes black environments and missing visual elements.
@@ -257,6 +260,8 @@ The compatibility components should load automatically when the game starts.
 **Current Status: Working**
 
 The game has successfully launched, entered gameplay, and rendered the complete game world on the AMD Radeon RX 580 8GB.
+
+**Full Campaign Playable:** The game can be played from beginning to end, including completing the entire campaign, on the tested RX 580 8GB.
 
 The major rendering issues encountered during development have been resolved.
 
