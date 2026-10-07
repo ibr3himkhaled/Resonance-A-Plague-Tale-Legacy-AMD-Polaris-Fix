@@ -32,7 +32,7 @@ If this project helped you enjoy a game that wouldn't otherwise run on your hard
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/ibr3himkhaled)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ibr3himkhap)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled011)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled)
 
 **All donations are completely optional. My compatibility fixes remain free and publicly available.**
 
@@ -208,25 +208,3 @@ Resonance A Plague Tale Legacy/
 ├── dxgi.dll
 │
 └── Resonance.exe
-
-## ❤️ Support My Work
-
-Hi, I'm **Ibrahim Khaled**, an independent developer creating compatibility fixes that help older AMD graphics cards run modern games.
-
-Developing these fixes involves extensive reverse engineering, shader analysis, debugging, and testing.
-
-If this project helped you enjoy a game that wouldn't otherwise run on your hardware, please consider supporting the development of future compatibility fixes.
-
-### ☕ Support Development
-
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ibr3himkhaled)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/ibr3himkhaled)
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ibr3himkhap)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled011)
-
-**All donations are completely optional. My compatibility fixes remain free and publicly available.**
-
-Your support helps me continue researching, developing, and improving compatibility solutions for older GPUs.
-
-**Thank you for supporting independent development!**
