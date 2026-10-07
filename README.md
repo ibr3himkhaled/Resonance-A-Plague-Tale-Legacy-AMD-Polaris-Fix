@@ -178,7 +178,6 @@ The fix was developed and tested using the following configuration:
 
 Download the latest version of the fix from one of the download links at the top of this README.
 
-- **[Download from Nexus Mods](https://stly.link/resonancepolarisfix)**
 - **[Download Mirror — MediaFire](https://stly.link/resonancepolaris)**
 
 Extract the downloaded archive using 7-Zip, WinRAR, or another compatible archive manager.
