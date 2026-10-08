@@ -1,7 +1,7 @@
 <div align="center">
 
 # Resonance: A Plague Tale Legacy
-## AMD Radeon RX 400 / RX 500 Compatibility Fix
+## AMD Radeon RX 500 Compatibility Fix
 
 **A community-developed DirectX 12 compatibility fix for AMD Polaris GPUs.**
 
