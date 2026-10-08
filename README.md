@@ -5,7 +5,7 @@
 
 **A community-developed DirectX 12 compatibility fix for AMD Polaris GPUs.**
 
-![GPU](https://img.shields.io/badge/GPU-AMD_RX_400_%2F_500-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
+![GPU](https://img.shields.io/badge/GPU-AMD_RX_500-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
 ![API](https://img.shields.io/badge/API-DirectX_12_%2F_Vulkan-0078D6?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Working-28A745?style=for-the-badge)
@@ -45,7 +45,7 @@ Your support helps me continue researching, developing, and improving compatibil
 
 ## Overview
 
-This project provides a custom compatibility fix designed to run **Resonance: A Plague Tale Legacy** on AMD Radeon RX 400 and RX 500 series graphics cards.
+This project provides a custom compatibility fix designed to run **Resonance: A Plague Tale Legacy** on AMD Radeon RX 500 series graphics cards, particularly GPUs based on the Polaris architecture.
 
 The fix addresses DirectX 12 compatibility limitations, Vulkan graphics pipeline failures, and shader compilation issues affecting AMD Polaris GPUs.
 
@@ -64,9 +64,23 @@ After extensive debugging, shader analysis, SPIR-V experimentation, and graphics
 
 ---
 
+## ⚠️ Important VRAM Compatibility Notice
+
+**The game requires at least 6GB of VRAM.**
+
+Graphics cards with only **4GB of VRAM cannot run the game successfully with this fix**. On these configurations, the game encounters a black screen during startup.
+
+This limitation is related to the game's VRAM requirements and engine behavior. The compatibility fix addresses DirectX 12 compatibility and rendering issues, but it cannot overcome the game's minimum VRAM requirement on 4GB graphics cards.
+
+**Recommended configuration: An AMD Radeon RX 500 series GPU with 8GB of VRAM.**
+
+The RX 580 8GB is the confirmed test configuration. Other GPUs with 8GB of VRAM may vary depending on their hardware and driver compatibility.
+
+---
+
 ## Features
 
-- Enables gameplay on AMD Polaris GPUs.
+- Enables gameplay on compatible AMD Polaris GPUs.
 - Supports playing the complete campaign from start to finish on the tested RX 580 8GB.
 - Addresses DirectX 12 compatibility limitations.
 - Resolves major Vulkan graphics pipeline creation failures.
@@ -135,17 +149,16 @@ After multiple development iterations, the problematic rendering paths were addr
 
 ## GPU Compatibility
 
-This project targets the **AMD Radeon RX 400 and RX 500 series**, particularly GPUs based on the Polaris architecture.
+This project targets compatible **AMD Radeon RX 500 series GPUs**, particularly GPUs based on the Polaris architecture.
 
 | GPU | Compatibility |
 |:---|:---|
 | AMD Radeon RX 580 8GB | Successfully tested |
-| AMD Radeon RX 570 | Targeted — additional testing welcome |
-| AMD Radeon RX 560 | Targeted — additional testing welcome |
-| AMD Radeon RX 550 | Not verified |
-| AMD Radeon RX 480 | Targeted — additional testing welcome |
-| AMD Radeon RX 470 | Targeted — additional testing welcome |
-| AMD Radeon RX 460 | Targeted — additional testing welcome |
+| AMD Radeon RX 570 4GB | Not working — black screen |
+| AMD Radeon RX 560 4GB | Not working — black screen |
+| AMD Radeon RX 550 4GB | Not working — black screen |
+| Other AMD Radeon RX 500 GPUs with 4GB VRAM | Not working — black screen |
+| Other AMD Radeon RX 500 GPUs with 8GB VRAM | Not verified |
 | Other AMD GPUs | Not verified |
 | NVIDIA GPUs | Not verified |
 | Intel GPUs | Not verified |
@@ -153,7 +166,9 @@ This project targets the **AMD Radeon RX 400 and RX 500 series**, particularly G
 > [!NOTE]
 > The RX 580 8GB is the primary development and testing GPU.
 >
-> Although the fix targets the RX 400 and RX 500 series, compatibility and performance may vary between individual GPU models and driver versions.
+> **GPUs with only 4GB of VRAM encounter a black screen and are not supported by this fix.** The game requires at least 6GB of VRAM, and the compatibility fix cannot bypass this limitation.
+>
+> The RX 580 8GB is the confirmed test configuration. Compatibility and performance on other GPUs may vary depending on the GPU model, driver version, and system configuration.
 
 ---
 
@@ -191,7 +206,9 @@ Locate the folder containing:
 
 ### Step 3 — Install the Fix
 
-Copy the following files and folders from the downloaded archive into the directory containing `Resonance.exe`:
+Copy the included files and folders from the downloaded archive into the directory containing `Resonance.exe`.
+
+The game directory should contain the required compatibility files, including:
 
 ```text
 Resonance A Plague Tale Legacy/
