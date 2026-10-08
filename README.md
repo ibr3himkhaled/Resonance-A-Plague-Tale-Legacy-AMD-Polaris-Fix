@@ -5,7 +5,7 @@
 
 **A community-developed DirectX 12 compatibility fix for AMD Polaris GPUs.**
 
-![GPU](https://img.shields.io/badge/GPU-AMD_RX_500-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
+![GPU](https://img.shields.io/badge/GPU-AMD_RX_580-ED1C24?style=for-the-badge&logo=amd&logoColor=white)
 ![API](https://img.shields.io/badge/API-DirectX_12_%2F_Vulkan-0078D6?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Working-28A745?style=for-the-badge)
