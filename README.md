@@ -158,7 +158,7 @@ This project targets compatible **AMD Radeon RX 500 series GPUs**, particularly 
 | AMD Radeon RX 560 4GB | Not working — black screen |
 | AMD Radeon RX 550 4GB | Not working — black screen |
 | Other AMD Radeon RX 500 GPUs with 4GB VRAM | Not working — black screen |
-| Other AMD Radeon RX 500 GPUs with 8GB VRAM | Not verified |
+| Other AMD Radeon RX 500 GPUs with 8GB VRAM | Worked |
 | Other AMD GPUs | Not verified |
 | NVIDIA GPUs | Not verified |
 | Intel GPUs | Not verified |
