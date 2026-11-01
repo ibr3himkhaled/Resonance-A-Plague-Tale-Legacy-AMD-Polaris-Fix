@@ -12,32 +12,40 @@
 
 **Successfully developed and tested on the AMD Radeon RX 580 8GB.**
 
-[Download from Mediafire](https://stly.link/resonancepolaris) ·
-[Report an Issue](../../issues)
+</div>
 
 ---
 
 ## ❤️ Support My Work
 
-Hi, I'm **Ibrahim Khaled**, an independent developer creating compatibility fixes that help older AMD graphics cards run modern games.
+Hi, I'm **Ibrahim Khaled**, an independent developer from Egypt, working on compatibility fixes that help older AMD graphics cards run modern games.
 
-Developing these fixes involves extensive reverse engineering, shader analysis, debugging, and testing.
+Developing these fixes requires countless hours of reverse engineering, shader analysis, graphics debugging, compatibility research, and testing. I dedicate a significant amount of my personal time and resources to making modern games playable on older hardware.
 
-If this project helped you enjoy a game that wouldn't otherwise run on your hardware, please consider supporting the development of future compatibility fixes.
+I want to be completely honest with you. **Life in Egypt has become extremely difficult financially, and I'm struggling to cover my living expenses while trying to continue this independent development work.**
+
+I genuinely love what I do, and I want to continue developing compatibility fixes, supporting more games, and helping people who cannot afford newer graphics cards. However, continuing this work has become increasingly difficult without financial support.
+
+**I genuinely need your financial support to keep going.**
+
+Your contributions will help me cover my living expenses, dedicate more time to development, maintain existing projects, and continue researching and creating compatibility solutions for older AMD GPUs.
 
 ### ☕ Support Development
 
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ibr3himkhaled)
+Your financial support can make a real difference in helping me continue this work.
+
+<div align="center">
+
+
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/ibr3himkhaled)
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ibr3himkhap)
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IbrahimKhaled)
 
-**All donations are completely optional. My compatibility fixes remain free and publicly available.**
+**My compatibility fixes will remain free and publicly available.**
 
-Your support helps me continue researching, developing, and improving compatibility solutions for older GPUs.
+Your support helps me continue doing what I love, maintain my existing projects, and bring more compatibility fixes to the community.
 
-**Thank you for supporting independent development!**
+**Thank you for believing in my work and helping me move forward. ❤️**
 
 </div>
 
