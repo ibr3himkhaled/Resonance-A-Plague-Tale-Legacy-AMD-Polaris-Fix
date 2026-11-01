@@ -229,6 +229,3 @@ Resonance A Plague Tale Legacy/
 ├── dxgi.dll
 │
 └── Resonance.exe
-
-
-**The compatibility fix remains free and publicly available. Your financial support helps make continued development possible.**
