@@ -51,6 +51,16 @@ Your support helps me continue doing what I love, maintain my existing projects,
 
 ---
 
+## 🎮 Explore My Other Game Fixes
+
+Looking for compatibility fixes for other games?
+
+Check out my GitHub repositories to discover more game fixes and compatibility projects.
+
+[**Browse All My Game Fixes on GitHub →**](https://github.com/ibr3himkhaled?tab=repositories)
+
+---
+
 ## Overview
 
 This project provides a custom compatibility fix designed to run **Resonance: A Plague Tale Legacy** on AMD Radeon RX 500 series graphics cards, particularly GPUs based on the Polaris architecture.
