@@ -162,14 +162,12 @@ This project targets compatible **AMD Radeon RX 500 series GPUs**, particularly 
 | GPU | Compatibility |
 |:---|:---|
 | AMD Radeon RX 580 8GB | Successfully tested |
-| AMD Radeon RX 570 4GB | Not working — black screen |
-| AMD Radeon RX 560 4GB | Not working — black screen |
-| AMD Radeon RX 550 4GB | Not working — black screen |
-| Other AMD Radeon RX 500 GPUs with 4GB VRAM | Not working — black screen |
+| AMD Radeon RX 570 4GB | worked — take too long to open |
+| AMD Radeon RX 560 4GB | worked — take too long to open |
+| AMD Radeon RX 550 4GB | worked — take too long to open |
+| Other AMD Radeon RX 500 GPUs with 4GB VRAM | worked — take too long to open |
 | Other AMD Radeon RX 500 GPUs with 8GB VRAM | Worked |
-| Other AMD GPUs | Not verified |
-| NVIDIA GPUs | Not verified |
-| Intel GPUs | Not verified |
+| Intel GPUs | Not worked |
 
 > [!NOTE]
 > The RX 580 8GB is the primary development and testing GPU.
@@ -231,3 +229,6 @@ Resonance A Plague Tale Legacy/
 ├── dxgi.dll
 │
 └── Resonance.exe
+
+
+**The compatibility fix remains free and publicly available. Your financial support helps make continued development possible.**
